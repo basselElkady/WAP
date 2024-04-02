@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+}
+
+header{
+    font-size: 5vw;
+    color:blue;
+}
+.aboutmepargraph{
+    color:antiquewhite;
+}
+#id1{
+    color: black;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.classes{
+    font-size: 3vw;
+    color: blue;
+}
+
+.image-container {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+
+
