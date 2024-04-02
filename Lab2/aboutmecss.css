@@ -9,6 +9,14 @@ header{
 .aboutmepargraph{
     color:antiquewhite;
 }
+
+.drop-cap:first-letter {
+    font-size: 2em;
+    float: left; 
+    margin-right: 4px; 
+    line-height: 1; 
+}
+
 .id1{
     color: black;
     font-weight: bold;
@@ -23,6 +31,10 @@ header{
 .image-container {
     display: inline-block; 
     margin-right: 20px; 
+}
+
+.no-underline {
+    text-decoration: none;
 }
 
 
