@@ -1,0 +1,13 @@
+
+
+div>input{
+    height: 4vh;
+}
+
+button{
+    background-color: blue;
+    color: antiquewhite;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 10%;
+}
