@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Place items at the beginning and end of the container */
+  }
+
+
+.left {
+  flex: 1;
+  float: left;
+}
+.left {
+    flex: 1;
+    float: right;
+  }
+
+
+img.a {
+   
+    vertical-align: middle;
+  }
+
+
+  .item1{
+    margin-left: 20px;
+    font-weight: 400;
+  }
+  .boldd{
+    font-weight: bold;
+  }
+
+
+  .midd{
+    background-color: #115156;
+    height: 100px;
+    display: flex;
+    justify-content: center; /* Align items horizontally in the center */
+    align-items: center; /* Align items vertically in the center */
+    height: 20vh;
+    
+  }
+  p.a{
+    color: antiquewhite;
+    text-align: center;
+    font-size:3vw
+    
+    }
+
+
+    .line{
+        
+        flex-grow: 1;
+        background-color: black;
+        height: 1px;
+        margin: 0 10px;
+        
+    }
+    .line-container{
+        display: flex;
+        align-items: center;
+    }
+    .text{
+        white-space: now;
+    }
+
+
+    .contaner2{
+        display: flex;
+        flex-direction: row;
+        background-color:blanchedalmond;
+    
+        
+
+    }
+
+    .contaner2 > div{
+        width: 50%;
+        justify-content: center;
+        padding: 10%;
+    }
+
+    .login{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logintext{
+        font-weight:50;
+        font-size:1vw;
+        
+    }
+
+    .button-azora {
+     
+       width: 30vw;
+       height: 4vh;
+       
+      }
+
+    .submitButton{
+        width: 10vw;
+        height: 4vh;
+        background-color: black;
+        color: aliceblue;
+    }
+    .loginButton{
+        width: 30vw;
+        height: 4vh;
+        background-color: black;
+        color: aliceblue;
+    }
+
+    .line-between-divs {
+      opacity:0.5;
+    }
+
+ 
