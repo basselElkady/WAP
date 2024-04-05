@@ -119,6 +119,7 @@ select {
     background-color: aliceblue;
     flex: 1;
     float: right;
+    height: 7vh;
 
 }
 
