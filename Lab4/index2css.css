@@ -1,0 +1,186 @@
+footer{
+    height: 7vh;
+    background-color: black;
+}
+
+footer{
+    height: 7vh;
+    background-color: black; 
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+main .class1{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    background-color: rgb(27, 184, 168);
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    color: aliceblue;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+main .class1>hr{
+    height: 7vh;
+    margin-right: 3%;
+}
+
+main .class1>div{
+    text-align: left;
+    margin-right: 7%;
+    margin-left: 1%;
+}
+main .class1>div:last-child{
+    flex: 2;
+    margin-right: 2%;
+    margin-left: 20%;
+    text-align: right;
+}
+
+.signoutButton{
+    background-color: aliceblue;
+    font-size: large;
+    width: 7vw;
+    height: 8vh;
+    border-radius: 10%;
+    margin: 1%;
+    
+}
+
+.signoutButton:hover{
+    background-color:black;
+    color: aliceblue;
+    font-size: large;
+    width: 7vw;
+    height: 8vh;
+    border-radius: 10%;
+    margin: 1%;
+    
+}
+
+main .class2{
+    flex: 2;
+    background-color:aliceblue;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color:black;
+}
+
+.fontsize2{
+    font-size: 2vw;
+}
+
+
+
+main .class2>div{
+    margin-left: 10%;
+    margin-left: 10%;
+    width: 50%;
+}
+
+.divflex{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    font-size: 1.5vw;
+    
+}
+
+.divflex>div{
+    padding-right: 5%;
+    padding-left: 1%;
+}
+
+div>input{
+    height: 5vh;
+}
+select {
+    width: 33vw; 
+    height: 5vh; 
+}
+
+.wightfont{
+    font-weight:0.1;
+    
+    font-size: small;
+}
+.divflex button{
+    background-color: aliceblue;
+    flex: 1;
+    float: right;
+
+}
+
+.resetButton{
+
+    color: blue;
+    border-color: blue;
+    width: 4vw;
+    border-radius: 10%;
+    margin: 1%;
+
+}
+
+.resetButton:hover{
+
+    color:green;
+    border-color: green;
+    width: 4vw;
+    border-radius: 10%;
+    margin: 1%;
+
+}
+
+
+.CancelButton{
+
+    color:orange;
+    border-color: orange;
+    width: 4vw;
+    border-radius: 10%;
+    margin: 1%;
+
+}
+
+
+.CancelButton:hover{
+
+    color:green;
+    border-color: green;
+    width: 4vw;
+    border-radius: 10%;
+    margin: 1%;
+
+}
+
+.AddProductButton{
+    color: rgb(10, 217, 244);
+    border-color: rgb(10, 217, 244);
+    width: 8vw;
+    border-radius: 10%;
+    margin: 1%;
+}
+
+
+.AddProductButton:hover{
+    color:green;
+    border-color: green;
+    width: 8vw;
+    border-radius: 10%;
+    margin: 1%;
+}
+
+.hrclass{
+    margin: 0%;
+    border-top: 3px solid #ccc;
+}

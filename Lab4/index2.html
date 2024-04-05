@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index2css.css">
+</head>
+<body>
+    <footer>
+
+    </footer>
+    <hr class="hrclass">
+    <main>
+        <div class="class1">
+            <div>
+                MUM Golden Dom Market : : : SRM System   
+            </div>
+            <hr>
+            <div>
+                Products
+            </div>
+            <hr>
+            <div>
+                Suppliers
+            </div>
+            <div>
+                
+                    Hello!
+                
+                <button class="signoutButton">
+                    Sign Out
+                </button>
+            </div>
+        </div>
+
+        <div class="class2">
+            <div class="fontsize2">
+                New Product Form
+            </div>
+            <br>
+            <form action="">
+                <div class="divflex">
+                    <div>
+                        <div>
+                            <label for="ProductNumber">Product Number</label>
+                        </div>
+                        
+                        <div>
+                            <input type="text" name="ProductNumber" id="ProductNumber" 
+                            pattern=".{10}"
+                            size="70" placeholder="Enter Product Number" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="Name">Name</label>
+                        </div>
+                    
+                        <div>
+                            <input type="text" name="Name" id="Name" size="70"
+                            pattern="[A-Z].*|[a-z].*"
+                            placeholder="Enter Product Name" required>
+                        </div>
+                    <br>
+                        <div>
+                            <label for="UnitPrice">Unit Price</label>
+                        </div>
+                        
+                        <div>
+                            <input type="text" name="UnitPrice" id="UnitPrice" size="70"
+                            pattern="[0-9].*"
+                            placeholder="0.0" required>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div>
+                            <label for="QuantityInStock">Quantity in Stock</label>
+                        </div>
+                        
+                        <div>
+                            <input type="text" name="QuantityInStock" id="QuantityInStock" 
+                            pattern="[0-9].*"
+                            size="70" placeholder="0" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="Suppliers">Suppliers :</label>
+                        </div>
+                        <div>
+                            <select name="Suppliers">
+                                <optgroup label="Suppliers">
+                                <option>Jerry</option>
+                                <option>George</option>
+                                <option>Kramer</option>
+                                <option>Elaine</option>
+                            </select>   
+                        </div>
+                        <br>
+                        
+                        <div>
+                            <label for="DateSupplied">Date Suplied :</label>
+                        </div>
+                        <div>
+                            <input type="text" name="DateSupplied" id="DateSupplied"
+                            pattern="\d{4}-?\d{2}-?\d{2}"
+                            placeholder="yyyy-mm-dd" size="70" required>
+                        </div>
+                        <div class="wightfont">
+                            Enter Valid Date
+                        </div>
+                        <br>
+                        <div>
+                            <button class="AddProductButton" type="submit">Add Product</button>
+                            <button class="CancelButton">Cancel</button>
+                            <button class="resetButton" type="reset">Reset</button>
+                            
+                        </div>    
+                    </div>
+                </form>
+               
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+
+    <div>
+        <p class="image-container">
+            <a href="https://validator.w3.org/check?url=https://basselelkady.github.io/WAP/Lab4">
+            <img src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png" alt="Validate" />
+            </a>
+        </p>
+    
+        <p class="image-container">
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://basselelkady.github.io/WAP/Lab4">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss"  alt="Valid CSS!">
+            </a>
+            </p>
+    
+    </div>
+</body>
+</html>
