@@ -14,9 +14,7 @@ function computeSumOfSquares(arr){
 // Do NOT use any explicit looping construct?
 
 console.log(computeSumOfSquares([1,2,3]))
-
 // b)
-
 function  printOddNumbersOnly(arr){
     return arr.filter((ele) => ele%2 != 0)
 }
