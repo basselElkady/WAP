@@ -77,6 +77,8 @@ let user = {
         { title: "Mockingjay: The Final Book of The Hunger Games", author: "Suzanne Collins", libraryID: 3257 }
     ];
     
+
+    // i
     function addBook(title, author, libraryID) {
         let newBook = {
             title: title,
@@ -93,10 +95,13 @@ let user = {
     console.log(libraryBooks);
 
 
+
+    //ii
+
     let alltitles=libraryBooks.map(book => book.title).sort()
     console.log(alltitles)
 
-    
+    // iii
     function findbook(str){
         return libraryBooks.filter(book => book.title.includes(str))
     }
